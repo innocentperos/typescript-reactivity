@@ -1,0 +1,11 @@
+{
+  "name": "reactivity",
+  "version": "1.0.0",
+  "description": "A replica of vue reactiviy api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Innocent Saidu Peros",
+  "license": "ISC"
+}
