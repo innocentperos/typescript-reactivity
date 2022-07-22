@@ -5,7 +5,13 @@ It is similar to the Vue 3 compositional API, it exposes four(4) functions which
 * reactive   ```  This is the default export```
 * ref
 * watch
-* computed
+<!-- * computed -->
+
+
+**Defination of terms**
+
+Reactive Object
+: Reactive object are objects that can be watched for data modification to it properties.
 
 ## Using Reactive function
 This function has signature three (3) signature  
@@ -70,11 +76,6 @@ console.log(data)
 
 ```
 
-[^1]: Reactive object are objects that can be watched for data modification to it properties.
-
-
-Reactive Object
-: Reactive object are objects that can be watched for data modification to it properties.
 
 
 
@@ -175,3 +176,13 @@ name.value ="Innocent Saidu Peros"
 ```
 >Ref gives you the freedom of having different state as different reactive object
 
+
+<!-- This features is yet to be polished, and is not reliable for usage -->
+
+<!-- ## Using Computed
+The computed allows you to create dynamic reactive ref objects that update it self automatically if the reactive objects properties used (accessed) in the computed function get updated or modified.
+
+### Example
+
+```ts
+``` -->
