@@ -4,6 +4,8 @@
   "description": "A replica of vue reactiviy api",
   "main": "index.js",
   "scripts": {
+    "build":"tsc index.ts ",
+    "watch":"tsc index.ts -w",
     "start": "node index.js"
   },
   "author": "Innocent Saidu Peros",
