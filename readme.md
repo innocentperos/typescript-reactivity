@@ -1,7 +1,7 @@
 # How to use this reactive system
 > *This is inspire by the vue 3 compositional API*
 
-It is similar to the Vue 3 compositional API, it exposes four(4) functions which are
+It is similar to the Vue 3 compositional API, it exposes three(3) functions which are
 * reactive   ```  This is the default export```
 * ref
 * watch
@@ -11,10 +11,10 @@ It is similar to the Vue 3 compositional API, it exposes four(4) functions which
 **Defination of terms**
 
 Reactive Object
-: Reactive object are objects that can be watched for data modification to it properties.
+: Reactive objects are objects that can be watched for data modification to it properties.
 
 ## Using Reactive function
-This function has signature three (3) signature  
+This function has three (3) signature  
 * ` reactive(data:object)`
 * ` reactive(data:object, watcher:(property:Symbol|String, newValue:any, oldValue:any )=>void|null,)`
 * `reactive(data:object, watcher:(property:Symbol|String, newValue:any, oldValue:any )=>void|null, watchGlobal = true,looselyCoupled?:Boolean)`
